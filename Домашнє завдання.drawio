@@ -1,0 +1,50 @@
+<mxfile host="app.diagrams.net" modified="2023-11-28T20:01:27.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="_0HFolBqkl6P8D9abr2c" version="22.1.4" type="github">
+  <diagram name="Страница — 1" id="Ct2Ymjy8H00vxx5TzcWO">
+    <mxGraphModel dx="838" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jczqVF2--dy1HQSECuff-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="40" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jczqVF2--dy1HQSECuff-3" value="Comand" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="170" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="jczqVF2--dy1HQSECuff-4" value="Show contact" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="jczqVF2--dy1HQSECuff-3" vertex="1">
+          <mxGeometry y="30" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jczqVF2--dy1HQSECuff-5" value="Show add" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="jczqVF2--dy1HQSECuff-3" vertex="1">
+          <mxGeometry y="60" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jczqVF2--dy1HQSECuff-6" value="Add contact&#39;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="jczqVF2--dy1HQSECuff-3" vertex="1">
+          <mxGeometry y="90" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd7vqZCA8ktoCqLJ3iqz-2" value="Add add" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="jczqVF2--dy1HQSECuff-3">
+          <mxGeometry y="110" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd7vqZCA8ktoCqLJ3iqz-3" value="My bot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="55" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd7vqZCA8ktoCqLJ3iqz-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jczqVF2--dy1HQSECuff-3" target="jczqVF2--dy1HQSECuff-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="160" as="sourcePoint" />
+            <mxPoint x="320" y="100" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sd7vqZCA8ktoCqLJ3iqz-7" value="&lt;h1&gt;Натиснувши 1 ти зможеш&lt;/h1&gt;&lt;div&gt;Побачити вже наявні контакти&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="190" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd7vqZCA8ktoCqLJ3iqz-8" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;Натиснувши 2 ти зможеш&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="340" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd7vqZCA8ktoCqLJ3iqz-9" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;Натиснувши 3 ти зможеш&lt;/h1&gt;&lt;div&gt;Додати контакти&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="500" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Sd7vqZCA8ktoCqLJ3iqz-10" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;Натиснувши 4 ти зможеш&lt;/h1&gt;&lt;div&gt;Змінити контакт&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="340" width="190" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
