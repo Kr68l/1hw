@@ -5,7 +5,6 @@ import calendar
 import json
 
 class Shape(ABC):
-  #global
   file_path = 'users_birthday.txt'
   file_path_phone = 'users_phone.txt'
     
@@ -29,25 +28,6 @@ class sustem(Shape):
   file_path = 'users_birthday.txt'
   file_path_phone = 'users_phone.txt'
     
-    # def contact(self, contacts):
-    #     print('Contact: ')
-    #     for contact in contacts: 
-    #         print(f"Name: {contact['name']}, phone: {contact['phone']}") 
-
-    # def add(self, add):
-    #     print('Add the contact: ')
-    #     for ad in add:
-    #         print(f"Add name contact: {ad['name']}, add contact phone: {ad['phone']}")
-
-    # def show(self):
-    #     print('Team availability')
-    #     print('')
-    #     print('Show contact ')
-    #     print('Show add ')
-    #     print('Add contact ')
-    #     print('Add add ')
-    #     print('Exit')
- 
   def add_user():
     
     file_path = 'users_birthday.txt'
@@ -120,19 +100,6 @@ class sustem(Shape):
                 current_letter = first_letter
             print(come.strip()) 
 
-# def сontact_сhanges():
-#     file_path_phone = 'users_phone.txt'
-#     with open(file_path_phone, 'r') as file:
-#         old_inscription = file.read()
-
-#     сhanges_old = input('Old name or phone number: ')
-#     сhanges_new = input('New name or phone number: ')
-
-#     сhanges = old_inscription.replace(сhanges_old, сhanges_new )
-#     with open(file_path_phone, 'w') as file:
-#         file.write(сhanges_old)
-#     print("Over, we've made changes")
-
   def saerch():
     file_path_phone = 'users_phone.txt'
     saer = input('Plase enter the username you went to search: ')
@@ -146,19 +113,6 @@ class sustem(Shape):
                 break
     if not found:
         print(f"Username '{saer}' not found in the file ")
-
-
-# def email():
-#     phone_plas = input('Plase enter your phone: ')
-#     email_plas = input('Plase enter your email: ')
-
-#     contact_plas = f"{phone_plas} and email: {email_plas}\n"
-
-#     with open(file_path_phone, 'a') as file:
-#         file.write(contact_plas)
-#         print()
-#         print("Over you'r email was added ")
-#         print()
 
   def change():
     file_path_phone = 'users_phone.txt'
@@ -207,15 +161,7 @@ class sustem(Shape):
   def calend():
     year = int(input('Please enter the year (2023): '))
     month = int(input('Please enter month (6): '))
-    print(calendar.month(year, month))
-
-# def birthday_cslc():
-#     def user_birth(date, years):
-#         file_path = 'users_birthday.txt'
-#         with open(file_path, 'r') as file :
-#             file.readlines()
-
-#         date = int(input("Please enter the date of what you are looking for(): " ))   
+    print(calendar.month(year, month))  
 
   def serch_user_birth():
     file_path = 'users_birthday.txt'
@@ -226,13 +172,6 @@ class sustem(Shape):
         for line in file:
             name, birthday = line.strip().split(':') #strip
             if strr == name:
-                # birthday_str = birthday_str.strip()
-                # birthday = datetime.strptime(birthday, '%d.%m.%Y')
-                # next_birthday = birthday.replace(year=today.year)
-                # if next_birthday < today:
-                #     next_birthday = next_birthday.replace(year=today.year + 1)
-                # days_until_birthday = (next_birthday - today).days
-                # print(f'До следующего дня рождения пользователя {strr} осталось {days_until_birthday} дней.')
                 print(f'User is {strr}: {birthday} ')
                 found = True
                 break
@@ -260,39 +199,6 @@ class sustem(Shape):
     if not found:
         print('User not found in file ')
 
-    # def birthday_cont():
-    
-    # def birthday(name, dat):
-    #     file_path = 'users_birthday.txt'
-
-    #     data_now = datetime.now()
-    #     next_birthday = datetime(data_now.year, dat.month, dat.day)
-
-    #     if data_now >  next_birthday:
-    #         next_birthday = datetime(data_now.year + 1, dat.month, dat.day)
-
-    #     day = (next_birthday - data_now).days
-    #     age = data_now.year - dat.year 
-
-    #     return f"{name} ({age} years old) until the next birthday left: {day} days"
-
-    # user_name = input('Plase enter name: ')
-
-    # if user_name in file_path: 
-    #     dat = datetime.strptime(file_path[user_name])
-    #     result =  birthday_cont(user_name, dat)
-    #     print(result)
-    # else:
-    #     print('Error... ')
-
-
-    # data_birth = input('Plase enter your username using your birthday book: ')
-
-    # file_path = 'users_birthday.txt'
-
-    # with open(file_path, 'r') as file:
-    #     file.read(data_birth)
-    # print('This is your people ?')
   def add_contact():
     file_path = 'users_birthday.txt'
     file_path_phone = 'users_phone.txt'
@@ -331,8 +237,6 @@ class sustem(Shape):
         print('Contact deleted successfully!')
     except FileNotFoundError:
         print('Oops, an error occurred!')
-
-# class control():
 
   while True:
         print('')
@@ -398,38 +302,5 @@ class sustem(Shape):
         else:
             print('Oops, an error occurred !')
 
-
-
-    # def __init__(self, user): 
-    #     self.contacts = []
-    #     self.add = []
-    #     self.user = []
-
-    # def Command_output(self):
-    #     while True:
-    #         self.user.show()
-    #         comandd = input('Enter command: ')
-    #         if comandd == 'Show contact':
-    #             self.user.show(self.contacts)
-    #         elif comandd == 'Show add':
-    #             self.user.show(self.contacts)
-    #         elif comandd == 'Add contact':
-    #             self.user.show(self.add)
-    #         elif comandd == 'Add contac':
-    #             name = input('Enter contact name: ')
-    #             phone = input('Enter contact phone: ')
-    #             self.contacts.append({'name': name , 'phone':phone})
-    #         elif comandd == 'Add add': 
-    #             name = input('Enter contact name: ')
-    #             phone = input('Enter contact phone: ')
-    #             self.add.append({'Add name contac': name, 'add contact phone': phone})
-    #         elif comandd == 'exit':
-    #             break
-    #         else: 
-    #             print(input('Try again'))
 if __name__ == '__main__':
     qww =  sustem()
-    # qqw = control(qww)
-#    control.Command_output()
-
-
